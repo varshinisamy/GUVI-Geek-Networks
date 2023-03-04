@@ -17,10 +17,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header">
-                        <h2>REGISTER HERE</h2>
+                        <h2>Contact Form</h2>
                     </div>
-                    <p></p>
-                    <form action="insert.php" method="post">
+                    <p>Please fill this form and submit to add employee record to the database.</p>
+                    <form action="/home/varshini/Documents/register/php/insert.php" method="post">
                         <div class="form-group">
                             <label>Name</label>
                             <input type="text" name="name" class="form-control">
@@ -37,7 +37,7 @@
                             <label>Mobile</label>
                             <input type="mobile" name="mobile" class="form-control">
                         </div>
-                        <input type="submit" class="btn btn-primary" name="REGISTER" value="Submit">
+                        <input type="submit" class="btn btn-primary" name="submit" value="Submit">
                     </form>
                 </div>
             </div>        
